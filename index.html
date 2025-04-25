@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atelier d'Architecture - Léon Moreau</title>
+    <meta name="description" content="Atelier d'Architecture Léon Moreau : découvrez nos projets contemporains, nos services de conception, rénovation et urbanisme, et contactez-nous pour concrétiser vos idées.">
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+    <header role="banner">
+        <div class="logo-container">
+            <img src="images/logo.webp" alt="Logo de l'atelier" />
+            <h1>Atelier d'Architecture - Léon Moreau</h1>
+        </div>
+        <nav role="navigation" aria-label="Menu principal">
+            <ul>
+                <li><a href="#projets" aria-current="page">Projets</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main role="main">
+        <!-- Carrousel -->
+        <section id="hero" role="region" aria-label="Présentation de l'atelier">
+            <div class="carousel" aria-live="polite">
+                <div class="carousel-slide" tabindex="0">
+                    <img src="images/hero1.jpg" alt="Architecture moderne" />
+                </div>
+                <div class="carousel-slide" tabindex="0">
+                    <img src="images/hero2.jpg" alt="Projet urbain" />
+                </div>
+                <div class="carousel-slide" tabindex="0">
+                    <img src="images/hero3.jpg" alt="Maison écologique" />
+                </div>
+            </div>
+            <div class="hero-content">
+                <h2>Concevoir l'avenir, bâtir l'excellence</h2>
+                <p>Transformons vos idées en espaces architecturaux uniques.</p>
+            </div>
+        </section>
+
+        <!-- Projets -->
+        <section id="projets" role="region" aria-label="Nos projets récents">
+            <h2>Nos Projets</h2>
+            <div id="projets-container"></div>
+        </section>
+
+        <!-- Services -->
+        <section id="services" role="region" aria-label="Services proposés">
+            <h2>Nos Services</h2>
+            <div class="services-container">
+                <div class="service" tabindex="0">
+                    <img src="images/service1.jpg" alt="Conception Architecturale" />
+                    <h3>Conception Architecturale</h3>
+                    <p>Création de plans et modélisation 3D pour des projets sur mesure.</p>
+                </div>
+                <div class="service" tabindex="0">
+                    <img src="images/service2.jpg" alt="Rénovation et Réhabilitation" />
+                    <h3>Rénovation et Réhabilitation</h3>
+                    <p>Modernisation d'espaces anciens tout en respectant leur histoire.</p>
+                </div>
+                <div class="service" tabindex="0">
+                    <img src="images/service3.jpg" alt="Urbanisme" />
+                    <h3>Urbanisme</h3>
+                    <p>Développement de projets urbains intégrant les principes écologiques.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" role="form" aria-label="Formulaire de contact">
+            <h2>Contactez-nous</h2>
+            <form id="contact-form" aria-describedby="form-message">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Votre nom" required aria-required="true" aria-label="Nom" />
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Votre email" required aria-required="true" aria-label="Email" />
+                </div>
+                <div class="form-group">
+                    <textarea id="message" placeholder="Votre message" required aria-required="true" aria-label="Message"></textarea>
+                </div>
+                <button type="submit" id="submit-btn" aria-label="Envoyer le message">Envoyer</button>
+                <p id="form-message" class="hidden" aria-live="polite"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer role="contentinfo">
+        <p>&copy; 2024 Atelier d'Architecture - Léon Moreau. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+[
+    {
+        "titre": "Villa Minimaliste",
+        "description": "Une villa moderne au design épuré et lumineux.",
+        "image": "images/villa-minimaliste.jpg"
+    },
+    {
+        "titre": "Pavillon Éco-Responsable",
+        "description": "Un pavillon construit avec des matériaux durables et autonomes en énergie.",
+        "image": "images/pavillon-eco.jpg"
+    },
+    {
+        "titre": "Maison en Bois Contemporaine",
+        "description": "Une maison chaleureuse avec une ossature en bois et un intérieur moderne.",
+        "image": "images/maison-bois.jpg"
+    },
+    {
+        "titre": "Bureaux Open Space",
+        "description": "Des bureaux lumineux et flexibles favorisant la créativité et la collaboration.",
+        "image": "images/bureaux-openspace.jpg"
+    },
+    {
+        "titre": "Loft Industriel",
+        "description": "Un loft urbain transformé avec des éléments en métal et en verre.",
+        "image": "images/loft-industriel.jpg"
+    }
+]

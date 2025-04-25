@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atelier d'Architecture - Léon Moreau</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="images/logo.webp" alt="Logo de l'atelier">
+            <h1>Atelier d'Architecture - Léon Moreau</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="carousel">
+            <div class="carousel-slide"><img src="images/hero1.jpg" alt="Architecture moderne"></div>
+            <div class="carousel-slide"><img src="images/hero2.jpg" alt="Projet urbain"></div>
+            <div class="carousel-slide"><img src="images/hero3.jpg" alt="Maison écologique"></div>
+        </div>
+        <div class="hero-content">
+            <h2>Concevoir l'avenir, bâtir l'excellence</h2>
+            <p>Transformons vos idées en espaces architecturaux uniques.</p>
+        </div>
+    </section>
+
+    <section id="projets">
+        <h2>Nos Projets</h2>
+        <div id="projets-container"></div>
+    </section>
+
+    <section id="services">
+        <h2>Nos Services</h2>
+        <div class="services-container">
+            <div class="service"><img src="images/service1.jpg" alt="Conception">
+                <h3>Conception Architecturale</h3>
+                <p>Plans et modélisation 3D sur mesure.</p>
+            </div>
+            <div class="service"><img src="images/service2.jpg" alt="Rénovation">
+                <h3>Rénovation</h3>
+                <p>Modernisation d'espaces anciens.</p>
+            </div>
+            <div class="service"><img src="images/service3.jpg" alt="Urbanisme">
+                <h3>Urbanisme</h3>
+                <p>Projets urbains écologiques.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Votre nom" required>
+            <input type="email" id="email" placeholder="Votre email" required>
+            <textarea id="message" placeholder="Votre message" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Atelier d'Architecture - Léon Moreau. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
